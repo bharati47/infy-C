@@ -17,7 +17,7 @@ package "tree" do
   action :install
 end
 file "/var/www/html/index.html" do
-  content "Hello Infoscions.... Welcome to Configuration Management with Chef :)"
+  content "Hello Infoscions... Welcome to Configuration Management with Chef :)"
   action :create
 end
 file '/robofile' do
