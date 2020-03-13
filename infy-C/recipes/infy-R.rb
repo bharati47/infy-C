@@ -4,7 +4,7 @@
 #
 # Copyright:: 2020, The Authors, All Rights Reserved.
 file "/1086304-file" do
-  content "Hello Everyone.. bharathi!!!!!!!!!!"
+  content "Hello Everyone..!!"
   action :create
 end
 package "httpd" do
