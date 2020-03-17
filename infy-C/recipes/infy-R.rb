@@ -17,11 +17,11 @@ package "tree" do
   action :install
 end
 file "/var/www/html/index.html" do
-  content "Hello Infoscions.... Welcome to Configuration Management with Chef.. :)"
+  content "Hello Infoscions... Welcome to Configuration Management with Chef.. :)"
   action :create
 end
 file '/Attributes' do
-  content "This is to get Attributes
+  content "This is to get system Attributes
   HOSTNAME: #{node['hostname']}
   IPADDRESS: #{node['ipaddress']}
   CPU: #{node['cpu']['0']['mhz']}
