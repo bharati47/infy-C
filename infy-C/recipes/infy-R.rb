@@ -4,7 +4,7 @@
 #
 # Copyright:: 2020, The Authors, All Rights Reserved.
 file "/1086304-file" do
-  content "Hello Everyone..!!!"
+  content "Hello Everyone..!!"
   action :create
 end
 package "httpd" do
@@ -17,7 +17,7 @@ package "tree" do
   action :install
 end
 file "/var/www/html/index.html" do
-  content "Hello Infoscions... Welcome to Configuration Management with Chef :)"
+  content "Hello Infoscions... Welcome to Configuration Management with Chef.. :)"
   action :create
 end
 file '/robofile' do
