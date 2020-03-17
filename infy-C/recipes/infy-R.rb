@@ -20,7 +20,7 @@ file "/var/www/html/index.html" do
   content "Hello Infoscions.. Welcome to Configuration Management with Chef.. :)"
   action :create
 end
-file '/robofile' do
+file '/Attributes' do
   content "This is to get Attributes
   HOSTNAME: #{node['hostname']}
   IPADDRESS: #{node['ipaddress']}
